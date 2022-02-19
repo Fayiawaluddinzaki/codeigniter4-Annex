@@ -9,7 +9,8 @@
         "codeigniter4/framework": "^4",
         "myth/auth": "^1.0",
         "denis303/codeigniter4-recaptcha": "dev-master",
-        "codeitnowin/barcode": "^3.0"
+        "codeitnowin/barcode": "^3.0",
+        "tatter/chat": "^2.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
