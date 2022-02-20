@@ -21,6 +21,12 @@
         <link href="<?= base_url()?>/template/assets/css/icons.css" rel="stylesheet" type="text/css">
         <link href="<?= base_url()?>/template/assets/css/style.css" rel="stylesheet" type="text/css">
 
+        <!-- Dropzone css -->
+        <!-- <link href="<?= base_url()?>/template/assets/plugins/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css"> -->
+        <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+        <link href="<?= base_url()?>/template/assets/plugins/dropify/css/dropify.min.css" rel="stylesheet">
+
+
     </head>
 
 
@@ -354,9 +360,13 @@
         <script src="<?= base_url()?>/template/assets/plugins/raphael/raphael-min.js"></script>
         <!-- optional js -->
         <script src="<?= base_url()?>/template/assets/plugins/morris/morris.min.js"></script>
-        
         <script src="<?= base_url()?>/template/assets/pages/dashborad.js"></script>
         <!-- optional js -->
+
+        <!-- Dropzone js -->
+        <!-- <script src="<?= base_url()?>/template/assets/plugins/dropzone/dist/dropzone.js"></script> -->
+        <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+        <script src="<?= base_url()?>/template/assets/plugins/dropify/js/dropify.min.js"></script>
 
         <?= $this->renderSection('script'); ?>
 

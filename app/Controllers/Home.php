@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('pages/cetakid2');
+        return view('pages/profile');
     }
 }

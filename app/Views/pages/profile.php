@@ -1,7 +1,7 @@
 <?= $this->extend('template/blank'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container mt-3">
+<div class="col-lg mt-3">
     <div class="main-body">
         <div class="row">
             <div class="col-lg">
