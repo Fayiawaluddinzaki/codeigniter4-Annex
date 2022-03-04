@@ -10,7 +10,9 @@
         "myth/auth": "^1.0",
         "denis303/codeigniter4-recaptcha": "dev-master",
         "codeitnowin/barcode": "^3.0",
-        "tatter/chat": "^2.1"
+        "tatter/chat": "^2.1",
+        "cboden/ratchet": "^0.4.4",
+        "takielias/codeigniter4-websocket": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

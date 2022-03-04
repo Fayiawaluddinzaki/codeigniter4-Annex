@@ -50,6 +50,7 @@ class Auth extends \Myth\Auth\Config\Auth
 	 * @var string
 	 */
 	public $viewLayout = 'App\Views\layout';
+	// public $viewLayout = 'App\Views\pages';
 
 	/**
 	 * --------------------------------------------------------------------

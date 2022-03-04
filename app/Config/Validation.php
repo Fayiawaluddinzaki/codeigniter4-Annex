@@ -25,6 +25,7 @@ class Validation
         FileRules::class,
         CreditCardRules::class,
         \Denis303\ReCaptcha\Validation\ReCaptchaRules::class,
+        \Myth\Auth\Authentication\Passwords\ValidationRules::class
     ];
 
     /**

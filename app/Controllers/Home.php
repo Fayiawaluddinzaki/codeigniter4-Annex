@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('pages/profile');
+        return view('pages/chat');
+        // return view('Websocket/websocket_message');
     }
 }

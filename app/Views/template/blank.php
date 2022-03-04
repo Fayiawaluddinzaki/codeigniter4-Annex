@@ -368,6 +368,8 @@
         <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
         <script src="<?= base_url()?>/template/assets/plugins/dropify/js/dropify.min.js"></script>
 
+        
+
         <?= $this->renderSection('script'); ?>
 
         <!-- App js -->

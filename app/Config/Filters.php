@@ -39,6 +39,7 @@ class Filters extends BaseConfig
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
+            // 'login',
         ],
         'after' => [
             'toolbar',
@@ -67,5 +68,7 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        'login' => ['before' => ['/']],
+    ];
 }
